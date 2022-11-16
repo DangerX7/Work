@@ -21,6 +21,24 @@ namespace LabelSim
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Use default printer? *X*");
+            var input0 = Console.ReadLine();
+
+            string inputIp;
+            int inputPort;
+            if (input0 == "X" || input0 == "x")
+            {
+                inputIp = "192.168.34.249";
+                inputPort = 6101;
+            }
+            else
+            {
+                Console.WriteLine("Enter PrinterIp");
+                inputIp = Console.ReadLine();
+                Console.WriteLine("Enter PrinterPort");
+                inputPort = Convert.ToInt32(Console.ReadLine());
+            }
+
             Console.WriteLine("Enter Upper Text");
             var input1 = Console.ReadLine();
             Console.WriteLine("Enter Bottom Text");
@@ -29,13 +47,11 @@ namespace LabelSim
             var input3 = Console.ReadLine();
             Console.WriteLine("Connecting to printer...");
 
-            Print(input1, input2, input3);
+            Print(input1, input2, input3, inputIp, inputPort);
         }
 
-        static bool Print(string input1, string input2, string input3)
+        static bool Print(string input1, string input2, string input3, string printerIp, int printerPort)
         {
-            string ipAddress = "192.168.34.249";
-            int port = 6101;
 
             string labeltext = "^XA" + Environment.NewLine +
                 " " + Environment.NewLine +
@@ -59,7 +75,7 @@ namespace LabelSim
             {
                 // Open connection
                 System.Net.Sockets.TcpClient client = new System.Net.Sockets.TcpClient();
-                client.Connect(ipAddress, port);
+                client.Connect(printerIp, printerPort);
 
                 // Write ZPL String to connection
                 StreamWriter writer = new StreamWriter(client.GetStream());
