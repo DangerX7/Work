@@ -1,0 +1,146 @@
+///////////////////////////////////// Range Object
+Range("A1").Value = "Hello"
+Range("A1:A2,B3:C4").Value = 10
+Cells(3, 2).Value = 2
+Range(Cells(1, 1), Cells(4, 6)).Value = 8
+
+Dim example As Range
+Set example = Range("A1:C4")
+example.Value = 5
+*example.Rows(3).Select
+*example.Columns(2).Select
+
+Range("A1:A2").Select
+Selection.Copy
+Range("C3").Select
+ActiveSheet.Paste
+*Range("C3:C4").Value = Range("A1:A2").Value
+
+Range("A1").ClearContents
+Range("A1").Value = ""
+
+//////////////// Messages, Count, Add
+
+MsgBox "Entered value is " & Range("A1").Value
+MsgBox "Line 1" & vbNewLine & "Line 2"
+
+Dim example As Range
+Set example = Range("A1:C4")
+MsgBox example.Count
+
+Workbooks.Add
+Worksheets.Add
+MsgBox Workbooks.Count
+MsgBox Rows.Count
+MsgBox Columns.Count
+
+///////////////////// Variables
+
+Dim x As Integer
+x = 6
+Range("A1").Value = x
+
+Dim book As String
+book = "bible"
+Range("A1").Value = book
+
+Dim x As Double
+x = 5.5
+MsgBox "value is " & x
+
+Dim continue As Boolean
+continue = True
+If continue = True Then MsgBox "Boolean variables are cool"
+
+//////////////////// If Then Statement
+
+Dim score As Integer, result As String
+score = Range("A1").Value
+
+If score >= 60 Then
+result = "pass"
+Else
+    result = "fail"
+End If
+
+Range("B1").Value = result
+
+///////////////////// Loops
+
+Dim i As Integer
+For i = 1 To 6
+    Cells(i, 1).Value = 100
+Next i
+
+Dim i As Integer, j As Integer
+For i = 1 To 6
+    For j = 1 To 3
+        Cells(i, j).Value = 100
+    Next j
+Next i
+
+Dim i As Integer
+i = 1
+Do While i < 6
+    Cells(i, 1).Value = 20
+    i = i + 1
+Loop
+
+///////////////////////////String
+
+Dim text1 As String, text2 As String
+text1 = "Hi"
+text2 = "Tim"
+MsgBox text1 & " " & text2
+
+Dim text As String
+text = "example text"
+MsgBox Left(text, 7)
+MsgBox Right(text, 4)
+MsgBox Mid(text, 5, 3)
+
+MsgBox Len("example text")
+
+MsgBox Instr("example text", "am")
+
+///////////////////////////Date & Time
+
+Dim firstDate As Date, secondDate As Date
+firstDate = DateValue("Jan 19, 2020")
+secondDate = DateAdd("d", 3, firstDate)
+MsgBox secondDate
+
+MsgBox Now
+*MsgBox Hour(Now)
+*MsgBox TimeValue("9:20:01 am")
+
+////////////////////////////Arrays
+
+Dim Films(1 To 5) As String
+Films(1) = "Lord of the Rings"
+Films(2) = "Speed"
+Films(3) = "Star Wars"
+Films(4) = "The Godfather"
+Films(5) = "Pulp Fiction"
+MsgBox Films(4)
+
+Dim Films(1 To 5, 1 To 2) As String
+Dim i As Integer, j As Integer
+For i = 1 To 5
+    For j = 1 To 2
+        Films(i, j) = Cells(i, j).Value
+    Next j
+Next i
+MsgBox Films(4, 2)
+
+/////////////////////////////Functions
+
+Function Area(x As Double, y As Double) As Double
+Area = x * y
+End Function
+
+///////////////////////Others
+
+Range("A3").Value = Application.WorksheetFunction.Average(Range("A1:A2"))
+
+ActiveWorkbook.Close
