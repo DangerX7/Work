@@ -1,0 +1,160 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using PC_CheckerApp_Web.Data;
+using PC_CheckerApp_Web.Models;
+using OfficeOpenXml.Table;
+using OfficeOpenXml;
+using System.Web;
+using Microsoft.Extensions.Hosting.Internal;
+using Microsoft.Extensions.FileProviders;
+using System.IO.Abstractions;
+using static PC_CheckerApp_Web.Controllers.PNModelController;
+using Microsoft.Extensions.Primitives;
+using Microsoft.Extensions.FileProviders.Physical;
+using System.IO;
+using System.Net;
+using System.Net.Http;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Diagnostics;
+
+namespace PC_CheckerApp_Web.Controllers
+{
+    public class PNModelController : Controller
+    {
+        public async Task<IActionResult> Index(string searchString)
+        {
+            string data = @"C:\\Daniel\test.png";
+
+
+            //int entryCount = 0;
+            //ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+            //using (ExcelPackage p = new ExcelPackage(@"C:\\Daniel\30002 Verificare PALETIZARE.xlsm"))
+            //{
+            //    ExcelWorksheet ws = p.Workbook.Worksheets[2];
+
+            //    //var rowList = new List<int>();
+
+            //    int i = 2;
+            //    int foundRow;
+            //    int offset = 1;
+            //    string cellData = "";
+
+            //    while (true)
+            //    {
+            //        if (cellData.Contains("END OF REPORT") || i > 1000000)
+            //        {
+            //            break;
+            //        }
+            //        cellData = Convert.ToString(ws.Cells["C" + i].Value);
+            //        if (cellData == "113740")
+            //        {
+
+            //            foundRow = i + offset;
+
+            //            data = (string)ws.Cells["C" + i].Value;
+            //        }
+            //        i++;
+            //    }
+            //}
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                string partNumber = searchString.Trim();
+                
+                Process.Start(@"C:\windows\system32\rundll32.exe", @"C:\WINDOWS\System32\shimgvw.dll,ImageView_Fullscreen " + @"Y:\poze kd part center 2\" + partNumber + ".png");
+                Process.Start(@"C:\windows\system32\rundll32.exe", @"C:\WINDOWS\System32\shimgvw.dll,ImageView_Fullscreen " + @"Y:\poze kd part center 2\" + partNumber + ".jpg");
+                Process.Start(@"C:\windows\system32\rundll32.exe", @"C:\WINDOWS\System32\shimgvw.dll,ImageView_Fullscreen " + @"Y:\poze kd part center 2\" + partNumber);
+                ViewBag.image = data;
+            }
+
+            return View();
+        }
+
+        public static string ProcessData(string data)
+        {
+            return data;
+        }
+        //internal sealed class FileSystemHelper : IFileProvider
+        //{
+        //    public IDirectoryContents GetDirectoryContents(string subpath)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public Microsoft.Extensions.FileProviders.IFileInfo GetFileInfo(string subpath)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public IChangeToken Watch(string filter)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+        //}
+
+        //public PhysicalFileInfo(System.IO.FileInfo info) 
+        //{ 
+
+        //} 
+
+
+        //public ActionResult Index()
+        //{
+        //    //String path = Server.MapPath("~/poze kd part center 2");
+        //    //String[] imagesfiles = Directory.GetFiles(path);
+        //    //ViewBag.images = imagesfiles;
+
+        //    return View();
+        //}
+
+
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@model IEnumerable<PC_CheckerApp_Web.Models.PNModel>
+
+@{
+    ViewData["Title"] = "Index";
+    ViewBag.Title = "Index";
+}
+
+
+<form asp-controller="PNModel" asp-action="Index" method="get">
+    <p>
+        PN: <input type="text" name="SearchString" />
+        <input type="submit" value="Cauta" />
+    </p>
+</form>
+
+
+   
+<img src="~/img/test.png" alt="not found">
+<img src="@Url.Content("~/img/test.png")" alt="not found">
+<img src="C:\Daniel\test.png" alt="not found">
+
+@*<p>
+    @ViewBag.image
+</p>
+*@
+
+@*<div>
+    foreach(var file in ViewBag.images)
+    {
+        <img src ="~/images/@Path.GetFileName(file)" />
+    }
+</div>*@
+
+@*C:\Daniel\test.png"*@
+@*https://www.w3schools.com/images/picture.jpg*@
+@*Y:\poze kd part center 2\0010306120.PNG*@
+@*file:///Y:/poze%20kd%20part%20center%202/0010306120.PNG*@
+@*https://freeimage.host/i/screenshot-20230118-115310.HagzWib*@
+@*http://dbase1/gi/GI%207000%20Documents/Part%20Center%20PN%20Images/141P24-4.jpg*@
