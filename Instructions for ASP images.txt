@@ -1,0 +1,22 @@
+Go to Control Panel
+-Programs
+-Turn Windows features on or off (NEED ADMIN)
+-Check "Internet Information Services"
+-Wait for instalation
+-Restart
+
+Search "ISS"
+-Sites-Add Site
+-Same site name and host name "test.local"
+-Physical path Y:/part center pictures
+-Type http
+
+Go to C:\Windows\System32\drivers\etc
+-copy file host to desktop
+-add line 127.0.0.1           "test.local"
+-save and replace the old one in C (NEED ADMIN)
+
+Change folder path in Visual Studio in controller to
+http://test.local
+
+full path = "http://test.local/257250-0.png"
