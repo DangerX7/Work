@@ -1,0 +1,136 @@
+gametitle=Urban Reign (Europe) (En,Fr,De,Es,It) [SCES_536.88] [AE4BEBD3]
+
+//skin modifier [Select  Brad]
+patch=1,EE,D035A5D2,extended,0000FFFE
+patch=1,EE,201E8210,extended,24110002
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+//skin modifier [L2  Bordin]
+patch=1,EE,D035A5D2,extended,0000FEFF
+patch=1,EE,201E8210,extended,24110042
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+//skin modifier [R2  Shinkai]
+patch=1,EE,D035A5D2,extended,0000FDFF
+patch=1,EE,201E8210,extended,24110035
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+//skin modifier [L2+R2  Golem]
+patch=1,EE,D035A5D2,extended,0000FCFF
+patch=1,EE,201E8210,extended,2411002D
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+//skin modifier [L3  KG batut]
+patch=1,EE,D035A5D2,extended,0000FFFD
+patch=1,EE,201E8210,extended,2411003E
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+//skin modifier [R3  GD 04]
+patch=1,EE,D035A5D2,extended,0000FFFB
+patch=1,EE,201E8210,extended,24110044
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+
+//skin modifier [Select+L2   Lilian]
+patch=1,EE,D035A5D2,extended,0000FEFE
+patch=1,EE,201E8210,extended,24110038
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+//skin modifier [Select+R2   Real Deal]
+patch=1,EE,D035A5D2,extended,0000FDFE
+patch=1,EE,201E8210,extended,24110009
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+//skin modifier [Select+L2+R2   Lin Fong Lee]
+patch=1,EE,D035A5D2,extended,0000FCFE
+patch=1,EE,201E8210,extended,24110036
+patch=1,EE,D035A5D2,extended,0000FFF7
+patch=1,EE,201E8210,extended,00A0882D
+
+// patch=1,EE,201E8210,extended,241[1]00[3C]         
+//
+// 0 = skin universal modifier for all characters
+// 1 = standard modifier. 
+//
+// if [1] then last 2 values declare the skin. [3C] is LAW
+
+//00 - Brad Hawk
+//01 - Brad Hawk
+//02*- Brad Hawk (Sunglasses)
+//03 - Glen
+//04 - Torque
+//05 - Rod
+//06 - Seth
+//07 - Nas-Tiii
+//08 - Em Cee
+//09 - Real Deal
+//0A - Ty
+//0B - Miguel
+//0C - Ramon
+//0D - Jose
+//0E - Emilio
+//0F - Emilio
+//10 - Kadonashi
+//11 - Zack
+//12 - Colin
+//13 - Jake
+//14 - Tong Yoon
+//15 - Grimm
+//16 - BK
+//17 - Grave Digga'
+//18 - Bones
+//19 - Booma
+//1A - Busta
+//1B - Spiden
+//1C - Pain Killah
+//1D - Dwayne (Mask)
+//1E - Dwayne
+//1F - Shun Ying Lee
+//20 - GD 05
+//21 - DR 88
+//22 - FK 71
+//23 - PT 22
+//24 - Bain
+//25 - Cooper
+//26 - Anderson
+//27 - Taylor
+//28 - Chris
+//29 - Park
+//2A - Alex
+//2B - McKinzie
+//2C - Napalm 99
+//2D - Golem
+//2E - Riki
+//2F - Masa
+//30 - Hiro
+//31 - Ryuji
+//32 - Ye Wei
+//33 - Sha Ying
+//34 - Yan Jun
+//35 - Shinkai
+//36 - Lin Fong Lee
+//37 - Bordin
+//38 - Lilian
+//39 - Kelly
+//3A - Vera
+//3B - Paul
+//3C - Law
+//3D - Bordin
+//3E*- Bloody KG
+//3F - Park
+//40 - Zack
+//41 - Zack
+//42 - Bordin 
+//43 - Park
+//44*- GD 04
+//45 - KG
+//46 - Bain (Mask)
+//47 - Cooper (Mask)
