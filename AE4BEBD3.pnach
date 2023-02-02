@@ -524,3 +524,8 @@ patch=1,EE,201E8210,extended,00A0882D
 
 ///11,0F,40,41
 /////Find Reggie and test others
+
+//patch=1,EE,D035A5D2,extended,0000FEEF  1x3 3 - 0000 might be P2 keys # FEEF is P1 keys
+//patch=1,EE,201E8210,extended,24110009  2x4 4 - 2411 ???  # 00 could be for P3 & P4  # 09 is for P1 & P2
+//patch=1,EE,D035A5D2,extended,0000FFF7  1x5 5 - the same as 3 but for register I think
+//patch=1,EE,201E8210,extended,00A0882D  2x6 6 - ?????
