@@ -1,0 +1,108 @@
+/P1 Stats
+//patch=1,EE,105A6018,extended,000003E8 //STK
+//patch=1,EE,105A601A,extended,000003E8 //GRP
+//patch=1,EE,105A601C,extended,000003E8 //RGA
+//patch=1,EE,105A601E,extended,000003E8 //SPA
+//patch=1,EE,105A6020,extended,000003E8 //WPA
+//patch=1,EE,105A6022,extended,000003E8 //TGH
+//P2
+//patch=1,EE,105AF768,extended,000003E8 //STK
+//patch=1,EE,105AF76A,extended,000003E8 //GRP
+//patch=1,EE,105AF76C,extended,000003E8 //RGA
+//patch=1,EE,105AF76E,extended,000003E8 //SPA
+//patch=1,EE,105AF770,extended,000003E8 //WPA
+//patch=1,EE,105AF772,extended,000003E8 //TGH
+//P3
+//patch=1,EE,105B8EB8,extended,000003E8 //STK
+//patch=1,EE,105B8EBA,extended,000003E8 //GRP
+//patch=1,EE,105B8EBC,extended,000003E8 //RGA
+//patch=1,EE,105B8EBE,extended,000003E8 //SPA
+//patch=1,EE,105B8EC0,extended,000003E8 //WPA
+//patch=1,EE,105B8EC2,extended,000003E8 //TGH
+//P4
+//patch=1,EE,105C2608,extended,00000444 //STK
+//patch=1,EE,105C260A,extended,00000444 //GRP
+//patch=1,EE,105C260C,extended,00000444 //RGA
+//patch=1,EE,105C260E,extended,000000FF //SPA
+//patch=1,EE,105C2610,extended,00000666 //WPA
+//patch=1,EE,105C2612,extended,00000888 //TGH
+*
+//half 1F4 (decimal 500)
+//MAX value 3E8 (decimal 1000)
+//4E2 (1250)
+//5DC (1500)
+//7D0 (2000)
+//BB8 (3000)
+//1388(5000) 
+
+
+
+
+
+//Only 2players Hp codes can be active at a time
+
+//P1 Hp 25%
+//patch=1,EE,D05A5FC8,extended,000005DC
+//patch=1,EE,105A5FC8,extended,00000177
+
+//P2 Hp 25%
+//patch=1,EE,D05AF718,extended,000005DC
+//patch=1,EE,105AF718,extended,00000177
+
+//P3 Hp 0.1%
+//patch=1,EE,D05A5FC8,extended,000005DC
+//patch=1,EE,105B8E68,extended,00000001
+
+//P4 Hp 200%
+//patch=1,EE,D05AF718,extended,000005DC
+//patch=1,EE,105C25B8,extended,00000BB8
+
+
+//15*percent #hex
+
+//   0% 0000
+// 0.1% 0001
+//  25% 0177
+//  50% 02EE
+//  75% 0465
+// 100% 05DC
+// 120% 0708
+// 150% 08CA
+// 200% 0BB8
+// 300% 1194
+// 500% 1D4C
+//2184% 7FFF
+
+//D05A5FC8 000005DC  25%
+//105A5FC8 00000177
+
+//D05A5FC8 000005DC  100%
+//105A5FC8 000005DC
+
+
+
+
+//P1 Spa 0bars
+//patch=1,EE,105A5FF2,extended,00000000
+
+//P2 Spa 0bars
+//patch=1,EE,105AF742,extended,00000000
+
+//P3 Spa 10bars
+//patch=1,EE,105B8E92,extended,000003E8
+
+//P4 Spa 10bars
+//patch=1,EE,105C25E2,extended,00000194
+
+//SPA will restore instantly
+//105A5FF2 00000000  0bars
+//105A5FF2 000000CA  2bars
+//105A5FF2 00000132  3bars
+//105A5FF2 00000194  4bars
+//105A5FF2 000003E8  Inf
+
+
+
+
+
+
