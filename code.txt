@@ -1,0 +1,35 @@
+    public class LineModel
+    {
+        [Key]
+        public int id { get; set; }
+        public int lineNumber { get; set; }
+        public int sectionID { get; set; }
+        public int shift { get; set; }
+
+        //navigation property
+        public SectionModel Section { get; set; }
+    }
+	    public class SectionModel
+    {
+        [Key]
+        public int Id { get; set; }
+        [MaxLength(12)]
+        public string Name { get; set; }
+
+        //navigation property
+        public virtual LineModel Line { get; set; }
+    }
+	        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.Entity<CapacityModel>()
+                .HasKey(c => new { c.partID, c.lineID });
+
+            //one-to-one relationship between Line and Section
+            modelBuilder.Entity<LineModel>()
+                  .HasOne(a => a.Section)
+                  .WithOne(b => b.Line)
+                  .HasForeignKey<SectionModel>(b => b.Name);
+
+            base.OnModelCreating(modelBuilder);
+        }
