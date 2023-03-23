@@ -1,0 +1,35 @@
+
+        <Border Grid.Row="6"
+                Grid.Column="2"
+                BorderBrush="Blue"
+                BorderThickness="0"
+                Margin="60,0,1040,0">
+
+            <Viewbox  ToolTip="">
+                <CheckBox Content="Automat"
+                          Foreground="Black"
+                          IsChecked="{Binding PrintLabel1}"
+                          Width="20"/>
+            </Viewbox>
+
+        </Border>
+
+
+
+//////////////////
+
+
+        private bool _printLabel1;
+
+        public bool PrintLabel1
+        {
+            get { return _printLabel1; }
+            set
+            {
+                if (_printLabel1 != value)
+                {
+                    _printLabel1 = value;
+                    RaisePropertyChanged("PrintLabel1");
+                }
+            }
+        }
