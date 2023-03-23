@@ -29,6 +29,7 @@
                 if (_printLabel1 != value)
                 {
                     _printLabel1 = value;
+                    //turn false any other boolean linked to that character
                     RaisePropertyChanged("PrintLabel1");
                 }
             }
