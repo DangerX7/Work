@@ -34,3 +34,32 @@ https://ufile.io/m06el5vc
 00 37 1F 38 13 3A 03 04 05 06
 00 FF FF FF 37 FF FF FF 1F FF FF FF 38 FF FF FF 13 FF FF FF 3A FF FF FF 03 FF FF FF 04 05 06 FF
 00 48 48 48 37 48 48 48 1F 48 48 48 38 48 48 48 13 48 48 48 3A 48 48 48 03 48 48 48 04 05 06 FF
+
+
+
+<---Mission data--->
+    Goals insert stage gfx
+          insert chara gfx
+          insert weapon gfx
+
+ppk data
+0-3FF must be the headers,
+-compare two ppk with same stage and see the same values
+-change values in header to see how it affects the mission
+
+<---Fake Moveset Swap Video--->
+heheh
+
+<---Characters--->
+-try to swap model 02 with 00 and realocate memory
+
+<---Textures--->
+-look into Tekken 5
+-look into Def Jam
+
+<---Camera--->
+-swap between camera data files
+
+
+<---Moveset--->
+...
