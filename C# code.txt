@@ -48,7 +48,9 @@ ppk data
 -change values in header to see how it affects the mission
 
 <---Fake Moveset Swap Video--->
-heheh
+-edit spa bar color to white
+-record video without brad avatar and then add it
+-no music
 
 <---Characters--->
 -try to swap model 02 with 00 and realocate memory
@@ -63,3 +65,4 @@ heheh
 
 <---Moveset--->
 ...
+
