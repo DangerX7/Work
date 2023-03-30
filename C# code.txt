@@ -66,3 +66,5 @@ ppk data
 <---Moveset--->
 ...
 
+
+https://www.google.com/maps/d/viewer?mid=1gfteMQbVgaUbb0jTJWX421pAQy1iCO1t&ll=44.58796878281426%2C26.754464475960262&z=9
