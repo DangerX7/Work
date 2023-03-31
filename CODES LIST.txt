@@ -1,0 +1,359 @@
+gametitle=Urban Reign (USA) [SLUS-21209] [BDD9BAAD]
+
+
+/P1 Stats
+//patch=1,EE,105A6018,extended,000003E8 //STK
+//patch=1,EE,105A601A,extended,000003E8 //GRP
+//patch=1,EE,105A601C,extended,000003E8 //RGA
+//patch=1,EE,105A601E,extended,000003E8 //SPA
+//patch=1,EE,105A6020,extended,000003E8 //WPA
+//patch=1,EE,105A6022,extended,000003E8 //TGH
+//patch=1,EE,105A5FD2,extended,000001F4 //HDE
+//patch=1,EE,105A5FD8,extended,000000FA //HDE Balance
+//patch=1,EE,105A5FD4,extended,000001F4 //UBE
+//patch=1,EE,105A5FDA,extended,000000FA //UBE Balance
+//patch=1,EE,105A5FD6,extended,000001F4 //LBE
+//patch=1,EE,105A5FDC,extended,000000FA //LBE Balance
+//patch=1,EE,105A65EA,extended,00000000 //Auto-Parry
+//patch=1,EE,1059C8A6,extended,00000000 //SPA Cooldown
+//patch=1,EE,105A5FEA,extended,00000333 //WALL DMG
+//patch=1,EE,105A6070,extended,00000013 //SPA Regained
+//patch=1,EE,205A6010,extended,00000006 //SPA Down
+//patch=1,EE,205A6014,extended,44DF8000 //Infinite Spa Down
+//P2
+//patch=1,EE,105AF768,extended,000003E8 //STK
+//patch=1,EE,105AF76A,extended,000003E8 //GRP
+//patch=1,EE,105AF76C,extended,000003E8 //RGA
+//patch=1,EE,105AF76E,extended,000003E8 //SPA
+//patch=1,EE,105AF770,extended,000003E8 //WPA
+//patch=1,EE,105AF772,extended,000003E8 //TGH
+//patch=1,EE,105AF722,extended,000001F4 //HDE
+//patch=1,EE,105AF728,extended,000000FA //HDE Balance
+//patch=1,EE,105AF724,extended,000001F4 //UBE
+//patch=1,EE,105AF72A,extended,000000FA //UBE Balance
+//patch=1,EE,105AF726,extended,000001F4 //LBE
+//patch=1,EE,105AF72C,extended,000000FA //LBE Balance
+//patch=1,EE,105AFD3A,extended,00000000 //Auto-Parry
+//patch=1,EE,105A5FF6,extended,00000000 //SPA Cooldown
+//patch=1,EE,105AF73A,extended,00000333 //WALL DMG
+//patch=1,EE,105AF7C0,extended,00000013 //SPA Regained
+//patch=1,EE,205AF760,extended,00000006 //SPA Down
+//patch=1,EE,205AF764,extended,44DF8000 //Infinite Spa Down
+//P3
+//patch=1,EE,105B8EB8,extended,000003E8 //STK
+//patch=1,EE,105B8EBA,extended,000003E8 //GRP
+//patch=1,EE,105B8EBC,extended,000003E8 //RGA
+//patch=1,EE,105B8EBE,extended,000003E8 //SPA
+//patch=1,EE,105B8EC0,extended,000003E8 //WPA
+//patch=1,EE,105B8EC2,extended,000003E8 //TGH
+//patch=1,EE,105B8E72,extended,000001F4 //HDE
+//patch=1,EE,105B8E78,extended,000000FA //HDE Balance
+//patch=1,EE,105B8E74,extended,000001F4 //UBE
+//patch=1,EE,105B8E7A,extended,000000FA //UBE Balance
+//patch=1,EE,105B8E76,extended,000001F4 //LBE
+//patch=1,EE,105B8E7C,extended,000000FA //LBE Balance
+//patch=1,EE,105B948A,extended,00000000 //Auto-Parry
+//patch=1,EE,105AF746,extended,00000000 //SPA Cooldown
+//patch=1,EE,105B8E8A,extended,00000333 //WALL DMG
+//patch=1,EE,105B8F10,extended,00000013 //SPA Regained
+//patch=1,EE,205B8EB0,extended,00000006 //SPA Down
+//patch=1,EE,205B8EB4,extended,44DF8000 //Infinite Spa Down
+//P4
+//patch=1,EE,105C2608,extended,000003E8 //STK
+//patch=1,EE,105C260A,extended,000003E8 //GRP
+//patch=1,EE,105C260C,extended,000003E8 //RGA
+//patch=1,EE,105C260E,extended,000003E8 //SPA
+//patch=1,EE,105C2610,extended,000003E8 //WPA
+//patch=1,EE,105C2612,extended,000003E8 //TGH
+//patch=1,EE,105C25C2,extended,000001F4 //HDE
+//patch=1,EE,105C25C8,extended,000000FA //HDE Balance
+//patch=1,EE,105C25C4,extended,000001F4 //UBE
+//patch=1,EE,105C25CA,extended,000000FA //UBE Balance
+//patch=1,EE,105C25C6,extended,000001F4 //LBE
+//patch=1,EE,105C25CC,extended,000000FA //LBE Balance
+//patch=1,EE,105C2BDA,extended,00000000 //Auto-Parry
+//patch=1,EE,105B8E96,extended,00000000 //SPA Cooldown
+//patch=1,EE,105C25DA,extended,00000333 //WALL DMG
+//patch=1,EE,105C2660,extended,00000013 //SPA Regained
+//patch=1,EE,205C2600,extended,00000006 //SPA Down
+//patch=1,EE,205C2604,extended,44DF8000 //Infinite Spa Down
+
+
+//Stats
+
+//10%  = #64
+//50%  = #1F4
+//100% = #3E8
+//150% = #5DC
+//200% = #7D0
+//300% = #BB8
+//500$ = #1388
+
+
+//Regionals
+
+//10%  = #32  & 19
+//20%  = #64  & 32 (Bordin Min)
+//30%  = #96  & 4B
+//40%  = #C8  & 64
+//50%  = #FA  & 7D
+//60%  = #12C & 96
+//70%  = #15E & AF
+//80%  = #190 & C8
+//90%  = #1C2 & E1
+//100% = #1F4 & FA (Golem Max)
+//150% = #2EE & 177
+//200% = #3E8 & 1F4
+
+
+
+//Only 2players Hp codes can be active at a time
+
+//P1 Hp 25%
+//patch=1,EE,D05A5FC8,extended,000005DC
+//patch=1,EE,105A5FC8,extended,00000177
+
+//P2 Hp 25%
+//patch=1,EE,D05AF718,extended,000005DC
+//patch=1,EE,105AF718,extended,00000177
+
+//P3 Hp 0.1%
+//patch=1,EE,D05A5FC8,extended,000005DC
+//patch=1,EE,105B8E68,extended,00000001
+
+//P4 Hp 200%
+//patch=1,EE,D05AF718,extended,000005DC
+//patch=1,EE,105C25B8,extended,00000BB8
+
+
+//15*percent #hex
+
+//   0% 0000
+// 0.1% 0001
+//  25% 0177
+//  50% 02EE
+//  75% 0465
+// 100% 05DC
+// 120% 0708
+// 150% 08CA
+// 200% 0BB8
+// 300% 1194
+// 500% 1D4C
+//2184% 7FFF
+
+//D05A5FC8 000005DC  25%
+//105A5FC8 00000177
+
+//D05A5FC8 000005DC  100%
+//105A5FC8 000005DC
+
+
+
+
+//P1 Spa 0bars
+//patch=1,EE,105A5FF2,extended,00000000
+
+//P2 Spa 0bars
+//patch=1,EE,105AF742,extended,00000000
+
+//P3 Spa 10bars
+//patch=1,EE,105B8E92,extended,000001D0
+
+//P4 Spa 10bars
+//patch=1,EE,105C25E2,extended,000001D0
+
+//SPA will restore instantly
+//105A5FF2 00000000  0bars
+//105A5FF2 000000CA  2bars
+//105A5FF2 00000132  3bars
+//105A5FF2 00000194  4bars
+//105A5FF2 000003E8  Inf
+
+
+
+////////////////////////Moves and Stats
+
+////patch=1,EE,D0359B12,extended,0000FEEF
+////patch=1,EE,201E8210,extended,24110009
+////patch=1,EE,D0359B12,extended,0000FFF7
+////patch=1,EE,201E7750,extended,00A0882D
+
+
+
+//P1 Moves
+//patch=1,EE,2059D1A4,extended,00000006 (3AD490)
+//patch=1,EE,2094A634,extended,00000006
+
+//patch=1,EE,2059DC64,extended,00000006 //EUR  +AC0   (3AD830)
+//patch=1,EE,2094B494,extended,00000006 //EUR  +E60
+
+//patch=1,EE,201E8210,extended,24110009 //EUR  SKIN
+
+
+//P2 Moves
+//patch=1,EE,205A68F4,extended,00000007
+//patch=1,EE,2094A638,extended,00000007
+
+//P3 Moves & Skin
+//patch=1,EE,205B0044,extended,00000000
+//patch=1,EE,2094A63C,extended,00000000
+
+//P4 Moves & Skin
+//patch=1,EE,205B9794,extended,00000022
+//patch=1,EE,2094A640,extended,00000022
+
+
+
+
+//00 - Brad Hawk
+//01 - Brad Hawk
+//02*- Brad Hawk (Sunglasses)
+//03 - Glen
+//04 - Torque
+//05 - Rod
+//06 - Seth
+//07 - Nas-Tiii
+//08 - Em Cee
+//09 - Real Deal
+//0A - Ty
+//0B - Miguel
+//0C - Ramon
+//0D - Jose
+//0E - Emilio
+//0F - Kadonashi
+//10 - Reggie
+//11 - Zack
+//12 - Colin
+//13 - Jake
+//14 - Tong Yoon
+//15 - Grimm
+//16 - BK
+//17 - Grave Digga'
+//18 - Bones
+//19 - Booma
+//1A - Busta
+//1B - Spider
+//1C - Pain Killah
+//1D - Dwayne (Mask)
+//1E - Dwayne
+//1F - Shun Ying Lee
+//20 - GD 05
+//21 - DR 88
+//22 - FK 71
+//23 - PT 22
+//24 - Bain
+//25 - Cooper
+//26 - Anderson
+//27 - Taylor
+//28 - Chris
+//29 - Park
+//2A - Alex
+//2B - McKinzie
+//2C - Napalm 99
+//2D - Golem
+//2E - Riki
+//2F - Masa
+//30 - Hiro
+//31 - Ryuji
+//32 - Ye Wei
+//33 - Sha Ying
+//34 - Yan Jun
+//35 - Shinkai
+//36 - Lin Fong Lee
+//37 - Bordin
+//38 - Lilian
+//39 - Kelly
+//3A - Vera
+//3B - Paul
+//3C - Law
+//3D - Bordin
+//3E*- KG (Damaged)
+//3F - Park
+//40 - Zack
+//41 - Zack
+//42 - Bordin 
+//43 - Park
+//44*- GD 04
+//45 - KG
+//46 - Bain (Mask)
+//47 - Cooper (Mask)
+
+
+////////SPA Down
+205A6010 //P1 205A6010
+patch=1,EE,205A6014,extended,44DF8000
+205AF760 //P2
+205B8EB0 //P3
+205C2600 //P4
+
+1 [15] = Armor                                    [8] [8] [2]  [2]
+2 [20] = Power                                    [8] [2] [2]  [2]
+3 [10] = Guard All                                [2] [2] [8]  [8]          
+4 [30] = Moveset  (1155473408)                    [2] [8] [2]  [2] 
+5 [10] = Power + Armor (+ Regen [Napalm Default]) [8] [2] [8]  [8]
+6 [10] = Power + Armor
+7  [7] = Power + Guard All
+8 [20] = Power + Moveset
+
+//patch=1,EE,205A6014,extended,44DF8000 //Infinite SPA Down
+
+Addresses = 205A6002 + 205A6006 + 205A600A + 205A600E
+Values = 00003FX0 + 43F80
+
+patch=1,EE,205A6002,extended,3F20
+patch=1,EE,205A6006,extended,3F80
+patch=1,EE,205A600A,extended,3F20
+patch=1,EE,205A600E,extended,3F80
+
+
+205A6018-205A6028 player 1 all 9 stats  [oRIGINALS]
+
+
+
+////SKIN NOTES
+
+1A   FFFFF77C
+1B   FFFFF99B
+
+21DA8654 first enemy in mission mode
+21DA8528 how many enemies in a mission
+21DA8480 start data, stage pointer and other values
+heheheh Sorine
+
+MISSION 1 0A + 02 + 09 08
+///
+0A - Back Alley
+8480-A
+851C-A
+851E-A
+8520-A
+05 - Bar
+
+9BD0-?
+
+1st  8654
+2nd  8700
+3rd  87AC
+4th  8858
+5th  8904
+6th  89B0
+
+8654 enemy id
+8860 possition on map
+8668 - 0 (standing) 3 ready to fight [start animation]
+8670 1st weapon
+
+F4 1A 00 00 / 3C F6 FF FF / 55 55 00 00 / 00 00 E8 03 1B 00 00 00 4th
+64 19 00 00 / 00 00 00 00 / 00 60 00 00 / 03 00 E8 03 00 00 00 00 2nd
+58 1B 00 00 / E8 03 00 00 / 00 60 00 00 / 03 00 E8 03 00 00 00 00 1st
+50 14 00 00 / E4 F3 FF FF / 1C 47 00 00 / 03 00 E8 03 00 00 00 00 5th
+A0 0F 00 00 / 00 00 00 00 / 55 55 00 00 / 03 00 E8 03 00 00 00 00 3th
+
+/// VALUES FOUND FOR FREE MODE  [8480-AC7F]
+
+patch=1,EE,21DA84A0,extended,0000FFFE //always have partner
+patch=1,EE,21DA8528,extended,0006 //set number of enemies part1
+patch=1,EE,21DA8550,extended,0006 //set number of enemies part2
+
+
+09 00 00 00 01 00 00 00 72 F1 FF FF AF F7 FF FF BC 7B 00 00 03 00 E8 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2D 00 00 00 00 00 09 00 29 00 4D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 00 00 00 01 00 00 00 39 F4 FF FF 48 EB FF FF C8 F1 00 00 03 00 E8 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2D 00 2D 00 2D 00 08 00 28 00 4D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
