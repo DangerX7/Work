@@ -73,11 +73,7 @@ Ciorbă de pui cu păstăi 250g
 Apă, Piept de pui, Fasole, Ceapă, Morcov, Roșii passata, Ardei, Țelină, Pastă de tomate, Ulei de floarea soarelui, Pătrunjel, Usturoi, Sare, Piper alb
 
 Here
-
 patch=1,EE,105A65EA,extended,00000000 //Player 1 Auto-Parry
-
 patch=1,EE,105AFD3A,extended,00000000 //Player 2 Auto-Parry
-
 patch=1,EE,105B948A,extended,00000000 //Player 3 Auto-Parry
-
 patch=1,EE,105C2BDA,extended,00000000 //Player 4 Auto-Parry
