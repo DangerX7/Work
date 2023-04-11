@@ -31,42 +31,18 @@ https://www.emag.ro/laptop-gaming-asus-rog-strix-scar-15-g533zm-cu-procesor-inte
 
 
 
-https://www.delish.com/uk/food-news/a36842356/pringles-tubes-huge/
-
-
- Urban Reign is a 2005 fighting game developed by Namco Bandai for the PlayStation 2. Here is a list of all the playable characters in Urban Reign:
-
-Brad Hawk
-Shun Ying Lee
-Zan
-Golem
-Simon Greedwell
-Austin
-Billione
-Chang
-Douglas
-Dwayne
-Emir
-G
-George
-Gilver
-Iron
-Katana
-Killer
-King Leo
-Mayhem
-Mikhail
-Monica
-Morgen
-Morris
-Murphy
-Naomi
-Park
-Sasha
-Shinji
-Slim
-Syd
-Thug
-Trey
-Troy
-Wayne
+  string labeltext = "^XA" + Environment.NewLine +
+                " " + Environment.NewLine +
+                "^FWR" + Environment.NewLine +
+                " " + Environment.NewLine +
+                "^CF0,10" + Environment.NewLine +
+                "^FO160,0^A0R,70,70^FB660,1,0,C^FD1341I234^FS" +
+                " " + Environment.NewLine +
+                "^CF0,50" + Environment.NewLine +
+                "^FO30,0^A0R,70,70^FB660,1,0,C^FD99999pcs^FS" +
+                " " + Environment.NewLine +
+                "^FO260,480" + Environment.NewLine +
+                "^BQN,0,6,H" + Environment.NewLine +
+                "^FD&gtWWWWWWWWWW.^FS" + Environment.NewLine +
+                " " + Environment.NewLine +
+                "^XZ";
