@@ -29,14 +29,20 @@ https://drive.google.com/file/d/1Zw5qzhfUsa6vcTw2nd19iPqYJKXKcZqp/view?usp=shari
 
 https://www.emag.ro/laptop-gaming-asus-rog-strix-scar-15-g533zm-cu-procesor-intelr-coretm-i7-12700h-15-6-wqhd-240hz-16gb-ram-ddr5-1tb-ssd-nvidiar-geforce-rtxtm-3060-6gb-no-os-off-black-g533zm-ln040/pd/DJNBDJMBM/?X-Search-Id=8b88a7146fe6a50a17cb&X-Product-Id=119879897&X-Search-Page=1&X-Search-Position=0&X-Section=search&X-MB=0&X-Search-Action=view
 
-
+///////////
+Second will become Manual Input
+New Page Packing v2
+input part number
+output part number text + qr + number of pieces  X label qty as in first menu
+change version to 0.4v
+add by Danger X somewhere
 
   string labeltext = "^XA" + Environment.NewLine +
                 " " + Environment.NewLine +
                 "^FWR" + Environment.NewLine +
                 " " + Environment.NewLine +
                 "^CF0,10" + Environment.NewLine +
-                "^FO160,0^A0R,70,70^FB660,1,0,C^FD1341I234^FS" +
+                "^FO160,0^A0R,70,70^FB660,1,0,C^WWWWWWWWWW.^FS" +
                 " " + Environment.NewLine +
                 "^CF0,50" + Environment.NewLine +
                 "^FO30,0^A0R,70,70^FB660,1,0,C^FD99999pcs^FS" +
