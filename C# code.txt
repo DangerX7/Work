@@ -34,8 +34,8 @@ Second will become Manual Input
 New Page Packing v2
 input part number
 output part number text + qr + number of pieces  X label qty as in first menu
-change version to 0.4v
-add by Danger X somewhere
+change version to 0.4v and place it on the left side
+add made by Danger X on the right side
 
   string labeltext = "^XA" + Environment.NewLine +
                 " " + Environment.NewLine +
