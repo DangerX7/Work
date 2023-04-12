@@ -55,6 +55,9 @@ add made by Danger on the right side
 
 https://play.google.com/store/apps/details?id=com.epic.SoundSchedule&hl=en_US
 
+
+https://www.mediafire.com/file/bdsfsq63xq0k0un/mygeodata.kml/file
+
         //NEW INSTRUCTIONS
             string labeltext = "^XA" + Environment.NewLine +
              " " + Environment.NewLine +
