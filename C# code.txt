@@ -72,3 +72,15 @@ https://www.mediafire.com/file/bdsfsq63xq0k0un/mygeodata.kml/file
              "^FD&gt" + input1 + "^FS" + Environment.NewLine +
              " " + Environment.NewLine +
              "^XZ";
+
+
+///////////// 
+string labeltext = "^XA" + Environment.NewLine +
+             " " + Environment.NewLine +
+             "^FWR" + Environment.NewLine +
+             " " + Environment.NewLine +
+             "^CF0,160" + Environment.NewLine +
+             "^FO200,0^A0R,100,100^FB660,1,0,C^FDDanger^FS" + Environment.NewLine +
+             "^FO80,0^A0R,100,100^FB660,1,0,C^FDis the best!^FS" + Environment.NewLine +
+             " " + Environment.NewLine +
+             "^XZ";
