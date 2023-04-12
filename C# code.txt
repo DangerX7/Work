@@ -53,6 +53,7 @@ add made by Danger on the right side
                 " " + Environment.NewLine +
                 "^XZ";
 
+https://play.google.com/store/apps/details?id=com.epic.SoundSchedule&hl=en_US
 
         //NEW INSTRUCTIONS
             string labeltext = "^XA" + Environment.NewLine +
