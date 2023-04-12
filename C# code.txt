@@ -52,3 +52,19 @@ add made by Danger on the right side
                 "^FD&gtWWWWWWWWWW.^FS" + Environment.NewLine +
                 " " + Environment.NewLine +
                 "^XZ";
+
+
+        //NEW INSTRUCTIONS
+            string labeltext = "^XA" + Environment.NewLine +
+             " " + Environment.NewLine +
+             "^FWR" + Environment.NewLine +
+             " " + Environment.NewLine +
+             "^CF0,160" + Environment.NewLine +
+             "^FO160,0^A0R,70,70^FB660,1,0,C^FD" + input1 + "^FS" + Environment.NewLine +
+             "^FO50,0^A0R,50,50^FB660,1,0,C^FD" + input2 + "^FS" + Environment.NewLine +
+             " " + Environment.NewLine +
+             "^FO260,480" + Environment.NewLine +
+             "^BQN,0,6,H" + Environment.NewLine +
+             "^FD&gt" + input1 + "^FS" + Environment.NewLine +
+             " " + Environment.NewLine +
+             "^XZ";
