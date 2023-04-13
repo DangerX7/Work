@@ -29,58 +29,19 @@ https://drive.google.com/file/d/1Zw5qzhfUsa6vcTw2nd19iPqYJKXKcZqp/view?usp=shari
 
 https://www.emag.ro/laptop-gaming-asus-rog-strix-scar-15-g533zm-cu-procesor-intelr-coretm-i7-12700h-15-6-wqhd-240hz-16gb-ram-ddr5-1tb-ssd-nvidiar-geforce-rtxtm-3060-6gb-no-os-off-black-g533zm-ln040/pd/DJNBDJMBM/?X-Search-Id=8b88a7146fe6a50a17cb&X-Product-Id=119879897&X-Search-Page=1&X-Search-Position=0&X-Section=search&X-MB=0&X-Search-Action=view
 
-///////////
-Second will become Manual Input
-New Page Packing v2
-input part number
-output part number text + qr + number of pieces  X label qty as in first menu
-change version to 0.4v and place it on the left side
-add made by Danger on the right side
-
-  string labeltext = "^XA" + Environment.NewLine +
-                " " + Environment.NewLine +
-                "^FWR" + Environment.NewLine +
-                " " + Environment.NewLine +
-                "^CF0,10" + Environment.NewLine +
-                "^FO160,0^A0R,70,70^FB660,1,0,C^WWWWWWWWWW.^FS" +
-                " " + Environment.NewLine +
-                "^CF0,50" + Environment.NewLine +
-                "^FO30,0^A0R,70,70^FB660,1,0,C^FD99999pcs^FS" +
-                " " + Environment.NewLine +
-                "^FO260,480" + Environment.NewLine +
-                "^BQN,0,6,H" + Environment.NewLine +
-                "^FD&gtWWWWWWWWWW.^FS" + Environment.NewLine +
-                " " + Environment.NewLine +
-                "^XZ";
-
-https://play.google.com/store/apps/details?id=com.epic.SoundSchedule&hl=en_US
-
 
 https://www.mediafire.com/file/bdsfsq63xq0k0un/mygeodata.kml/file
 
-        //NEW INSTRUCTIONS
-            string labeltext = "^XA" + Environment.NewLine +
-             " " + Environment.NewLine +
-             "^FWR" + Environment.NewLine +
-             " " + Environment.NewLine +
-             "^CF0,160" + Environment.NewLine +
-             "^FO160,0^A0R,70,70^FB660,1,0,C^FD" + input1 + "^FS" + Environment.NewLine +
-             "^FO50,0^A0R,50,50^FB660,1,0,C^FD" + input2 + "^FS" + Environment.NewLine +
-             " " + Environment.NewLine +
-             "^FO260,480" + Environment.NewLine +
-             "^BQN,0,6,H" + Environment.NewLine +
-             "^FD&gt" + input1 + "^FS" + Environment.NewLine +
-             " " + Environment.NewLine +
-             "^XZ";
 
-
-///////////// 
-string labeltext = "^XA" + Environment.NewLine +
-             " " + Environment.NewLine +
-             "^FWR" + Environment.NewLine +
-             " " + Environment.NewLine +
-             "^CF0,160" + Environment.NewLine +
-             "^FO200,0^A0R,100,100^FB660,1,0,C^FDDanger^FS" + Environment.NewLine +
-             "^FO80,0^A0R,100,100^FB660,1,0,C^FDis the best!^FS" + Environment.NewLine +
-             " " + Environment.NewLine +
-             "^XZ";
+Zile libere 2023
+14 aprilie
+17 aplilie
+1 mai
+1 iunie
+2 iunie
+5 iunie
+14-18 august
+11 septembrie
+30 noiembrie
+1 decembrie
+27-29 decembrie
