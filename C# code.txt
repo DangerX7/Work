@@ -68,6 +68,6 @@ remove 0000
 test if 1 and 2 are the same, of so they change 2 to 1
 look into cheat engine memory and try to find the skin value
 search for napalm regeneration spa
-add CJ skin and BK and Big Deal and Nastiiii
+add CJ skin and BK and Big Deal and Nastiiii and puta
 add mission 199 with 4 Shinkai Katana and 2 Shinkai Gunana
 remove partner and try to spawn 7 enemies in mission 1
