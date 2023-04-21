@@ -64,10 +64,22 @@ numpad keys
 
 
 ////
-remove 0000
-test if 1 and 2 are the same, of so they change 2 to 1
-look into cheat engine memory and try to find the skin value
-search for napalm regeneration spa
-add CJ skin and BK and Big Deal and Nastiiii and puta
-add mission 199 with 4 Shinkai Katana and 2 Shinkai Gunana
-remove partner and try to spawn 7 enemies in mission 1
+//Hyper Mode (Press R1+R2+Left) by Codejunkies
+patch=1,EE,E002F57F,extended,0035A5D2 //key
+patch=1,EE,20238CB8,extended,3C014000
+patch=1,EE,20238CC0,extended,44810000 //maybe useless
+
+//Normal Speed (Press R1+R2+Right) by Codejunkies
+patch=1,EE,E002F5DF,extended,0035A5D2 //key
+patch=1,EE,20238CB8,extended,3C02005A
+patch=1,EE,20238CC0,extended,C440DBCC //maybe useless
+
+//Quicker Game (Press R1+R2+Up) by Codejunkies
+patch=1,EE,E002F5EF,extended,0035A5D2 //key
+patch=1,EE,20238CB8,extended,3C013FC0
+patch=1,EE,20238CC0,extended,44810000 //maybe useless
+
+//Slow Motion (Press R1+R2+Down) by Codejunkies
+patch=1,EE,E002F5BF,extended,0035A5D2 //key
+patch=1,EE,20238CB8,extended,3C013F00
+patch=1,EE,20238CC0,extended,44810000 //maybe useless
