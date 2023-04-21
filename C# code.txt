@@ -83,3 +83,9 @@ patch=1,EE,20238CC0,extended,44810000 //maybe useless
 patch=1,EE,E002F5BF,extended,0035A5D2 //key
 patch=1,EE,20238CB8,extended,3C013F00
 patch=1,EE,20238CC0,extended,44810000 //maybe useless
+
+
+https://forum.xentax.com/viewtopic.php?t=18952
+65629250
+dangerovidiu@gmail.com
+DangerOvidiu
