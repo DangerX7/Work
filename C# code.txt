@@ -63,29 +63,23 @@ i7 processor
 numpad keys
 
 
-////
-//Hyper Mode (Press R1+R2+Left) by Codejunkies
-patch=1,EE,E002F57F,extended,0035A5D2 //key
-patch=1,EE,20238CB8,extended,3C014000
-patch=1,EE,20238CC0,extended,44810000 //maybe useless
+////////////////
 
-//Normal Speed (Press R1+R2+Right) by Codejunkies
-patch=1,EE,E002F5DF,extended,0035A5D2 //key
-patch=1,EE,20238CB8,extended,3C02005A
-patch=1,EE,20238CC0,extended,C440DBCC //maybe useless
+Danger
+add textures in our tool (add Army DR skin and upcoming skins)
+add Hornswoggle Model (Real Deal)
+add Special (Shu Ying)
+add Nightmare Model (Golem)
 
-//Quicker Game (Press R1+R2+Up) by Codejunkies
-patch=1,EE,E002F5EF,extended,0035A5D2 //key
-patch=1,EE,20238CB8,extended,3C013FC0
-patch=1,EE,20238CC0,extended,44810000 //maybe useless
+Sorin
+Remake Grolem
+Urban Reign Supreme (Title)
+Stage Texture change
+21 textures left (set 1)
 
-//Slow Motion (Press R1+R2+Down) by Codejunkies
-patch=1,EE,E002F5BF,extended,0035A5D2 //key
-patch=1,EE,20238CB8,extended,3C013F00
-patch=1,EE,20238CC0,extended,44810000 //maybe useless
+Kyle
+21 textures left (set 1)
+extra skins
 
-
-https://forum.xentax.com/viewtopic.php?t=18952
-65629250
-dangerovidiu@gmail.com
-DangerOvidiu
+Extra Stellar
+extra skins (Ryu from Street Fighter)
