@@ -99,3 +99,23 @@ lock page with code "pnach"
                        Shinji - Textures
                        Extra Stellar - Textures
                        Infinity Ninja - Textures
+
+
+private void Button_Click(object sender, RoutedEventArgs e)
+{
+    // Prompt the user to enter their password
+    string password = Microsoft.VisualBasic.Interaction.InputBox("Please enter your password:", "Password");
+
+    // Check if the password is correct
+    if (password == "my_password")
+    {
+        // Password is correct, do the action here
+        // For example:
+        MessageBox.Show("Action performed successfully!");
+    }
+    else
+    {
+        // Password is incorrect, show an error message
+        MessageBox.Show("Password is not correct.");
+    }
+}
