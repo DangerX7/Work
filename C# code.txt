@@ -83,3 +83,19 @@ extra skins
 
 Extra Stellar
 extra skins (Ryu from Street Fighter)
+
+////
+
+Developers page
+lock page with code "pnach"
+-add code search option from main menu page
+-add model switch option from texture page and make it individual for each model
+-add info screen that shows: if code file is empty
+                             if textures are used
+                             if models are changed
+-add tool version and release date
+-add developers names: Danger - Codding
+                       So007 - Textures
+                       Shinji - Textures
+                       Extra Stellar - Textures
+                       Infinity Ninja - Textures
