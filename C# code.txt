@@ -88,6 +88,7 @@ extra skins (Ryu from Street Fighter)
 
 Developers page
 lock page with code "pnach"
+-add iso folder patch configuration
 -add code search option from main menu page
 -add model switch option from texture page and make it individual for each model
 -add info screen that shows: if code file is empty
