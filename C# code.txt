@@ -66,3 +66,6 @@ numpad keys
 ////////////////
 
 try to find boxes damage value (look around wall damage value in memory)
+
+///
+https://www.youtube.com/watch?v=3B9DT0ryQoQ
