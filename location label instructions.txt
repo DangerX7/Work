@@ -1,0 +1,22 @@
+            string labeltext = "^XA" + Environment.NewLine +
+               " " + Environment.NewLine +
+               "^FWR" + Environment.NewLine +
+               " " + Environment.NewLine +
+               "^CF0,160" + Environment.NewLine +
+               "^FO230,0^A0R,110,110^FB450,1,0,C^FD" + input1 + "^FS" + Environment.NewLine +
+
+               "^FO50,0^A0R,110,110^FB450,1,0,C^FD" + input2 + "^FS" + Environment.NewLine +
+               " " + Environment.NewLine +
+
+               "^FO234,380" + Environment.NewLine +
+               "^BQN,0,6,H^FD>" + input1 + "^FS" + Environment.NewLine +
+               " " + Environment.NewLine +
+
+               "^FO52,380" + Environment.NewLine +
+               "^BQN,0,6,H^FD>" + input2 + "^FS" + Environment.NewLine +
+               " " + Environment.NewLine +
+
+               "^FO206,0" + Environment.NewLine + // Adjust the x-coordinate as needed
+               "^GB2,700,2,B,1^FS" + Environment.NewLine + // Draws a vertical line
+               " " + Environment.NewLine +
+               "^XZ";
