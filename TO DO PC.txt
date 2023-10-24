@@ -1,0 +1,57 @@
+//left to do\\
+
+-orice problema raportata sa ramana in tabelul de istoric timp de 6 luni (atunci cand se rezolva o problema sa dispara din orice meniu si dupa sa fie copiata in istoric)
+-input SV, bifa verificare + data si ora (pentru orice operatiune)
+-export rapoarte in excel
+-pagina sv
+
+-comanda ar trebui sa dispara din anumite meniuri dupa paletizare
+-email problema corecteaza mesaj
+-tabele istoric pentru toate tabelele importante
+
+-eticheta KD dupa verificare vizual + cantitativ + marca + data si ora S
+-meniu supervizor sa poata seta orele checkerului si secventele pickerului pentru tl (din 2 in 2 ore si 50 secvente)
+-pentru subzona KD sa se faca verificare la eticheta roz si scoti cu stoc verificat
+-pe pagina de alocare comenzi in submeniul alegere comanda, comenzile sa fie sortate dupa DueDate (MapWeb...)
+-template pentru excelul din gentionare locatii (visual)
+
+-daca doi utilizatori trimit date pe dev in acelasi timp serverul o sa creada ca doar unul dintre ei a trimis datele (primul cred)
+-email universal pentru aplicatie
+
+
+*notes for later (if)*
+-nu mai apare problema fisier picking modificat
+-prevent users from allocating commands that have Picker ID [already made but needs to be checked]
+-future insert picking/packing labels into our app
+-schimbare utilizatori cu cei din map
+-tabel nou pentru generalizare probleme
+-verificarea team leaderului la 100 repere ale pickerului sau 200 ale checkerului (random select 2 rows if no 50qty or set)
+cu conditiile, cantitate peste 50 si remarkul sa contina "SET" daca exista in reperele facute (daca nu alegem cea mai mare cantitate)
+
+
+*front*
+-pagina verificare part number
+-pagina verificare team leader
+-pagina supervizor
+-pagina de start
+
+*new*
+-introdu tot pentru Sablon Supervizor
+-y inferior si y superior devine intreg si etaj zona etc.....
+-pagina adaugare proces
+-remark la picking mutare chenar
+-frontend modal rezolvare probleme latime la nume observant
+-probleme anulare conditie la loop (in caz ca ai sarit secventa nu poti sa le faci pana nu se rezolva problemele, daca ai)
+-verifica daca face doar o verificare la Packing
+-interval ore si minute la verifica TL
+-mesaj in image upload cu : Imaginile se incarca...
+-Nu a mers sa scot eticheta la logimat, iar
+-Rezolva probleme checker in caz ca nu a pickuit packuit
+-poze incarcate pana la data de 20/10/2023
+
+
+*TO DO AFTER 15*
+Add PickedTimeStamp into v_Picking v_ComCheck v_Checker
+baga contul lui Adriana pe laptopul lui Laurentiu
+verificare la anumit interval orar la picking, paletizare
+__EFMigrationsHistory
