@@ -1,0 +1,75 @@
+
+        public static void KOGMoves()
+        {
+            if (SettingsClass.KOGMoves) //custom
+            {
+                uint offset = 0x6B76C2F0;
+                byte[] newValues = new byte[] { 0x34, 0x02, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B76C322;
+                newValues = new byte[] { 0xDC, 0x03, };
+                WriteFunction(offset, newValues);
+            }
+            else //original
+            {
+                uint offset = 0x6B76C2F0;
+                byte[] newValues = new byte[] { 0x99, 0x02, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B76C322;
+                newValues = new byte[] { 0xDA, 0x03, };
+                WriteFunction(offset, newValues);
+            }
+        }
+
+//RAM+4B1EC800
+
+Taunt				= 03EE / 205888FA	-	using Chris' running dodge (01D0)
+Running dodge		= 00B4 / 205888D8	-	using Lilian's (00BA)
+/\+side (front)		= didn't change it
+/\+side (back)		= 0DE2 / 20588B56	-	using Lilian's (0DD9)
+/\+up (front)		= 0C8E / 20588B18	-	using Alex's (0C37)
+/\+up (back)		= didn't change it
+/\+down (front)		= didn't change it
+/\+down (back)		= didn't change it
+/\+side (facing away)	= 0DE0 / 20588B58	-	using Lilian's (0C69)
+/\+up (facing away)	= 0EDC / 20588B1C	-	using Chris's (0CEF)
+/\+down (facing away)	= 0DBD / 20588B3A	-	using Kelly's (0CF0)
+SPA up			= 078E / 20588944	-	using Park's (068F)
+SPA down			= 0B4C / 20588946	-	using Napalm 99's (07D5)
+O+down (lying)		= 0988 / 20588AC2	-	using Lilian's (0971)
+O neutral			= didn't change it
+O+side			= didn't change it
+O+up				= didn't change it
+O+down			= didn't change it
+O neutral (running)	= didn't change it
+O+side (running)		= 0987 / 20588AD8	-	using Shun Ying's (06E6)
+O+up (running)		= didn't change it
+O+down (running)		= didn't change it
+O ntr 2ndhit (fcng a)	= 0AE2 / 205528C8	-	neutralizing it to use front atk (0000)
+O ntr 2ndhit (fcng a)	= 0AE2 / 2055288C	-	neutralizing it to use front atk (0000)
+O+side (facing away)	= didn't change it
+O+side (facing away)	= didn't change it
+O+up (facing away)	= didn't change it
+O+up (facing away)	= didn't change it
+O+down (facing away)	= didn't change it
+O+down (facing away)	= didn't change it
+Running grab (front)	= didn't change it
+Running grab (back)	= didn't change it
+Push front			= 0DEF / 2055B130	-	using Shun Ying's kick up (06E0)
+Push (facing away)	= 0DEF / 2055C828	-	using Shun Ying's kick up (06E0)
+Push timeout (front)	= 0DF0 / 2055B0D6	-	using Shun Ying's kick up (06E0)
+Push timeout (fac aw)	= 0DF0 / 2055C7CE	-	using Shun Ying's kick up (06E0)
+Grab 3rd hit (front)	= 0F04 / 2055B23E	-	using Shun Ying's kick up (06E0)
+Grab 3rd hit (front)	= 0F04 / 2055B3E2	-	using Shun Ying's kick up (06E0)
+Grab 1hit, push (frt)	= 0DEF / 2055B202	-	using Shun Ying's kick up (06E0)
+Grab 1hit, push (frt)	= 0DEF / 2055B3A6	-	using Shun Ying's kick up (06E0)
+Grab 2hit, push (frt)	= 0DEF / 2055B2D4	-	using Shun Ying's kick up (06E0)
+Grab 2hit, push (frt)	= 0DEF / 2055B478	-	using Shun Ying's kick up (06E0)
+Grab 1hit, timeou (f)	= 0DF0 / 2055B1A8	-	using Shun Ying's kick up (06E0)
+Grab 2hit, timeou (f)	= 0DF0 / 2055B27A	-	using Shun Ying's kick up (06E0)
+CH-swo neutral		= 0883 / 2058E652	-	using Lin Fong's saber's (0978)
+CH-swo neutral (fc a)	= 08A9 / 2058E656	-	using Lin Fong's saber's (097E)
+CH-swo neutral (fc a)	= 08AA / 2058E654	-	using Lin Fong's saber's (097F)
+CH-swo up			= 087C / 2058E66A	-	using Lin Fong's saber's (097B)
