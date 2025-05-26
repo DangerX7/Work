@@ -1,0 +1,273 @@
+
+        public static void SET_FUNCTION_NAME()
+        {
+            if (SettingsClass.KOGMoves) //custom
+            {
+                uint offset = 0x6B7750FA;
+                byte[] newValues = new byte[] { 0xEE, 0x03, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7750D8;
+                newValues = new byte[] { 0xB4, 0x00, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775356;
+                newValues = new byte[] { 0xE2, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775318;
+                newValues = new byte[] { 0x8E, 0x0C, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775358;
+                newValues = new byte[] { 0xE0, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77531C;
+                newValues = new byte[] { 0xDC, 0x0E, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77533A;
+                newValues = new byte[] { 0xBD, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775144;
+                newValues = new byte[] { 0x8E, 0x07, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775146;
+                newValues = new byte[] { 0x4C, 0x0B, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7752C2;
+                newValues = new byte[] { 0x88, 0x09, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7752D8;
+                newValues = new byte[] { 0x87, 0x09, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B73F0C8;
+                newValues = new byte[] { 0xE2, 0x0A, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B73F08C;
+                newValues = new byte[] { 0xE2, 0x0A, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747930;
+                newValues = new byte[] { 0xEF, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B749028;
+                newValues = new byte[] { 0xEF, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7478D6;
+                newValues = new byte[] { 0xF0, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B748FCE;
+                newValues = new byte[] { 0xF0, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747A3E;
+                newValues = new byte[] { 0x04, 0x0F, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747BE2;
+                newValues = new byte[] { 0x04, 0x0F, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747A02;
+                newValues = new byte[] { 0xEF, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747BA6;
+                newValues = new byte[] { 0xEF, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747AD4;
+                newValues = new byte[] { 0xEF, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747C78;
+                newValues = new byte[] { 0xEF, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7479A8;
+                newValues = new byte[] { 0xF0, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747A7A;
+                newValues = new byte[] { 0xF0, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE52;
+                newValues = new byte[] { 0x83, 0x08, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE56;
+                newValues = new byte[] { 0xA9, 0x08, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE54;
+                newValues = new byte[] { 0xAA, 0x08, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE6A;
+                newValues = new byte[] { 0x7C, 0x08, };
+                WriteFunction(offset, newValues);
+            }
+            else //original
+            {
+                uint offset = 0x6B7750FA;
+                byte[] newValues = new byte[] { 0xD0, 0x01, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7750D8;
+                newValues = new byte[] { 0xBA, 0x00, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775356;
+                newValues = new byte[] { 0xD9, 0x0D, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775318;
+                newValues = new byte[] { 0x37, 0x0C, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775358;
+                newValues = new byte[] { 0x69, 0x0C, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77531C;
+                newValues = new byte[] { 0xEF, 0x0C, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77533A;
+                newValues = new byte[] { 0xF0, 0x0C, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775144;
+                newValues = new byte[] { 0x8F, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B775146;
+                newValues = new byte[] { 0xD5, 0x07, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7752C2;
+                newValues = new byte[] { 0x71, 0x09, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7752D8;
+                newValues = new byte[] { 0xE6, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B73F0C8;
+                newValues = new byte[] { 0x00, 0x00, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B73F08C;
+                newValues = new byte[] { 0x00, 0x00, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747930;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B749028;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7478D6;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B748FCE;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747A3E;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747BE2;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747A02;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747BA6;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747AD4;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747C78;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B7479A8;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B747A7A;
+                newValues = new byte[] { 0xE0, 0x06, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE52;
+                newValues = new byte[] { 0x78, 0x09, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE56;
+                newValues = new byte[] { 0x7E, 0x09, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE54;
+                newValues = new byte[] { 0x7F, 0x09, };
+                WriteFunction(offset, newValues);
+
+                offset = 0x6B77AE6A;
+                newValues = new byte[] { 0x7B, 0x09, };
+                WriteFunction(offset, newValues);
+            }
+        }
+
+//RAM+4B1EC800
+//original value - address - new value
+
+Taunt					={ 0xEE, 0x03, };  / 6B7750FA-{ 0xD0, 0x01, };
+Running dodge			={ 0xB4, 0x00, };  / 6B7750D8-{ 0xBA, 0x00, };
+/\+side (back)			={ 0xE2, 0x0D, };  / 6B775356-{ 0xD9, 0x0D, };
+/\+up (front)			={ 0x8E, 0x0C, };  / 6B775318-{ 0x37, 0x0C, };
+/\+side (facing away)	={ 0xE0, 0x0D, };  / 6B775358-{ 0x69, 0x0C, };
+/\+up (facing away)		={ 0xDC, 0x0E, };  / 6B77531C-{ 0xEF, 0x0C, };
+/\+down (facing away)	={ 0xBD, 0x0D, };  / 6B77533A-{ 0xF0, 0x0C, };
+SPA up					={ 0x8E, 0x07, };  / 6B775144-{ 0x8F, 0x06, };
+SPA down				={ 0x4C, 0x0B, };  / 6B775146-{ 0xD5, 0x07, };
+O+down (lying)			={ 0x88, 0x09, };  / 6B7752C2-{ 0x71, 0x09, };
+O+side (running)		={ 0x87, 0x09, };  / 6B7752D8-{ 0xE6, 0x06, };
+O ntr 2ndhit (fcng a)	={ 0xE2, 0x0A, };  / 6B73F0C8-{ 0x00, 0x00, };
+O ntr 2ndhit (fcng a)	={ 0xE2, 0x0A, };  / 6B73F08C-{ 0x00, 0x00, };
+Push front				={ 0xEF, 0x0D, };  / 6B747930-{ 0xE0, 0x06, };
+Push (facing away)		={ 0xEF, 0x0D, };  / 6B749028-{ 0xE0, 0x06, };
+Push timeout (front)	={ 0xF0, 0x0D, };  / 6B7478D6-{ 0xE0, 0x06, };
+Push timeout (fac aw)	={ 0xF0, 0x0D, };  / 6B748FCE-{ 0xE0, 0x06, };
+Grab 3rd hit (front)	={ 0x04, 0x0F, };  / 6B747A3E-{ 0xE0, 0x06, };
+Grab 3rd hit (front)	={ 0x04, 0x0F, };  / 6B747BE2-{ 0xE0, 0x06, };
+Grab 1hit, push (frt)	={ 0xEF, 0x0D, };  / 6B747A02-{ 0xE0, 0x06, };
+Grab 1hit, push (frt)	={ 0xEF, 0x0D, };  / 6B747BA6-{ 0xE0, 0x06, };
+Grab 2hit, push (frt)	={ 0xEF, 0x0D, };  / 6B747AD4-{ 0xE0, 0x06, };
+Grab 2hit, push (frt)	={ 0xEF, 0x0D, };  / 6B747C78-{ 0xE0, 0x06, };
+Grab 1hit, timeou (f)	={ 0xF0, 0x0D, };  / 6B7479A8-{ 0xE0, 0x06, };
+Grab 2hit, timeou (f)	={ 0xF0, 0x0D, };  / 6B747A7A-{ 0xE0, 0x06, };
+CH-swo neutral			={ 0x83, 0x08, };  / 6B77AE52-{ 0x78, 0x09, };
+CH-swo neutral (fc a)	={ 0xA9, 0x08, };  / 6B77AE56-{ 0x7E, 0x09, };
+CH-swo neutral (fc a)	={ 0xAA, 0x08, };  / 6B77AE54-{ 0x7F, 0x09, };
+CH-swo up				={ 0x7C, 0x08, };  / 6B77AE6A-{ 0x7B, 0x09, };
