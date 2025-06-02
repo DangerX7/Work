@@ -1,0 +1,22 @@
+
+//get values again, custom and original are identical, one is not ok
+
+//brad values
+patch=1,EE,1061DDBC,extended,0200//Custom stats
+patch=1,EE,1061DDBE,extended,0200//Custom stats
+patch=1,EE,1061DDC0,extended,0200//Custom stats
+patch=1,EE,1061DDC2,extended,0200//Custom stats
+patch=1,EE,1061DDC4,extended,0200//Custom stats
+patch=1,EE,1061DDC6,extended,0200//Custom stats
+patch=1,EE,1061DDC8,extended,0200//Custom stats
+patch=1,EE,1061DDCA,extended,0200//Custom stats
+patch=1,EE,1061DDCC,extended,0200//Custom stats
+patch=1,EE,1061DDCE,extended,0200//Custom stats
+patch=1,EE,1061DDD0,extended,0200//Custom stats
+patch=1,EE,1061DDD2,extended,0200//Custom stats
+patch=1,EE,1061DDD4,extended,0200//Custom stats
+patch=1,EE,1061DDD6,extended,0200//Custom stats
+patch=1,EE,1061DDD8,extended,0200//Custom stats
+patch=1,EE,1061DDDA,extended,0200//Custom stats
+patch=1,EE,1061DDDC,extended,0200//Custom stats
+patch=1,EE,1061DDDE,extended,0200//Custom stats
