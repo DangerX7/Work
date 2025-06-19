@@ -1,0 +1,41 @@
+Effect
+x19 - Super Armor (Ungrabbable)
+x35 - Activates Candy Status Ailment
+X40 - Nulifies Heavy Break Stun
+x44 - Activates Slow Status Ailment
+x54 - Activates Sleep Status Ailment
+?67 - Super Armor (auto-reactivates)
+X79 - Guard Break recovery time multiplier (Amount)
++91 - Activates Super Armor 1 (Crystal Raid)
+
+Activation
+0 - Always
+11 - user is struck by an ultimate skill
+24 - Health is Less Than X
+26 - when stamina less than x
+46 - User stamina is broken
+
+Rila R
+Va dau slashy slash ba smurfi retardati
+19,0,Self
+44,0,Enemies
++2 Speed Stats
+
+G.M.
+*need to watch old videos to find something*
+67 test
+40, 0
+
+Gustavo
+Gusttavo Lima e voce, Tcherere tche tche
+54 46 on all enemies for 5 seconds
+35 11 on all enemies for 5 sec
+
+Mih
+54 26 (10%) activate on self
+
+Dan +
+79, 0 (1 second recovery duration)
+
+Fab +
+91,24 (10%)
