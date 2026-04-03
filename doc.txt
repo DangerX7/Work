@@ -33,22 +33,22 @@ in caz contrar deschide unul iar apoi scaneaza paletii temporari pentru mutare i
 
 
 to do list
--view pentru tableta logistica
--picking multiple logistica
 -baga toate tabelele si coloanele noi in schema draw.io si atasazo la proiect
--verifica la cuti in paleti daca apara la vreuna zona de checker cum ar fi 01MRO
 -considera un mic refresh pe cutiile pickerului in meniul de prepaletizare, (da match orders cu map views si vezi ce nu e in regula dupa dai refresh) [gandestete bine unde il pui si cum faci sa nu iei mult timp]
--schimba din mixed box in cutii in lucru textul de la prepaletizare
--la logimare alocare pe logimat pentru fiecare operator
+-la logimate alocare pe logimat pentru fiecare operator
 -vezi daca mai apar dubluri pe client + numar cutie cu picking no diferit si gandestete cum sa eviti situatia (verifica in map daca mai exista daca nu mai exista atunci le muti in istoric)
--verifica tabele 4 de paleti temporari si vezi daca avem dubluri in principale si cate dubluri avem in cele de istoric
 -vezi cum faci cu on change la meniul de prepaletizare, sa fie on select sau ceva
--la paletul de checker la scanere in meniul lui cand citeste literele mici sa se transforme in mari ca in inputul de la tara
 -sa apara numarul de pungi la paletizare la verificarea partiala
--da cumva focus pentru scanner in meniul de prepaletizare sau muta cumva mesajul langa input
--mai verifica odata daca intradevar apar paleti deschisi in meniul de prepaletizare unde te uiti sa vezi repede
--vezi ce sa hotarat cu cele 4 locatii de tl de la checker
+-restrict same receivingNo and different pickingNo at allocation
 
 ---note vechi
 -la sfarsit de zii toate cutiile packuite sa fie verificate de o procedura automata (momentan o rulez eu la ora 15) care apar fara temppalletID sa apara ca nou tip de problema
 -baga in tranzactii si datele la palet temporar si palet checker
+
+
+-----
+old data
+remove OldNames table
+from OperatorEvidences remove PartNumber and ReceivingOrdNo columns
+remove UsersLeft table
+remove from CheckerTempPallets and CheckerTempPalletHistory column IsEmpty
