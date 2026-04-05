@@ -1,0 +1,65 @@
+Improvements implemented in the new application:
+In the packing menu, instead of manually entering the packer, an input field has been added to search for employee details.
+Implementation of claims and services (update).
+Added a function to reset pallets in the forklift menu.
+For the picking, packing, and checker menus, automatic confirmation has been replaced with manual confirmation to reduce SQL processing load.
+All shared front-end libraries used in ASP.NET views (HTML, CSS, and JavaScript) have been moved locally to improve performance and reduce external dependencies.
+Optimized SQL queries generated through Entity Framework within the controllers to improve performance and efficiency.
+Updated the TL (Team Leader) verification process for picking, replacing it with the following options: multiple batches in the same location, precount label removed, location is dirty, others.
+Updated the front-end to support responsive design, ensuring the application works seamlessly across PCs, tablets, and mobile devices.
+Refactored controllers by moving business logic into service classes, reducing controller size and improving code maintainability.
+Developed a similar version of the allocation, picking, and deallocation menus for logistics, using different MAP system data and user accounts.
+New roles added: Collector and Picker Collector, Team Leader Logistic, Picker Logistic
+
+New features:
+New menu for temporary palletizing which contains: picker palletizing, moving items to a temporary collector location, and moving items to the checker zone.
+New pallet management menu, including client configuration and pre-palletizing zone setup.
+Temporary palletizing implemented in the checker menu, with related issues resolved.
+Temporary function to move problematic boxes in the checker menu.
+Labels added for the new pre-palletizing process.
+Added the ability for the collector to confirm boxes on a pallet that were not confirmed by the picker.
+
+
+Pre Palletizing menu in detail:
+In the pre-palletizing menu, the user selects the pre-palletizing zone and client, then opens a new pallet or selects an existing one, scans the relevant boxes, and temporarily closes the pallet (pause mode).
+Note: If there are boxes still in progress—such as mixed boxes or special orders that cannot go on the same pallet—they are entered in the “Boxes in Progress” inputs below, otherwise problems
+will be generated per box and sent to the Team Leader that will later have to find the boxes and move them to the special location (Checker TL Location).
+Step 2: The collector selects the client, temporary move location, and pallet to move the pallet in a termporary location.
+Step 3: The collector selects the checker location for that client, checks for an existing open pallet, opens one if needed, then scans the temporary pallets to move them into the checker’s pallet.
+The operator is blocked from adding or selecting another pallet until the process for the currently selected pallet is completed.
+The checker menu now includes an additional input for temporary pallets. The checker scans the QR code of the checker pallet at the start of the process and completes verification using a confirmation button, similar to the picker in the pre-palletizing menu.
+Problems are generated after pressing the confirmation button for both picker and checker, for boxes that were not scanned or verified.
+Only users who performed the picking can palletize their boxes.
+Error messages have been added for all new menus.
+If a problem is generated for a box during palletizing, duplicate problems will no longer be created. Previously, multiple problems could appear for each sequence within a box, creating too many issues to manage.
+
+----------------------------------------------------------------------------------
+
+to do list [dupa important (luni)]
+-in meniul de verificari fa respinsele si testeaza sa nu mai apara cu minus
+-verifica acum daca merge cele 4 locatii de tl de la checker
+-test logistica nou
+-front end checker
+-dupa ora 15 noul query pentru history, fist backup DB
+
+-front end alocare, picking, packing, packing kd
+-sa apara numarul de pungi la paletizare la verificarea partiala
+-vezi cum faci cu on change la meniul de prepaletizare, sa fie on select sau ceva
+
+-baga toate tabelele si coloanele noi in schema draw.io si atasazo la proiect
+-considera un mic refresh pe cutiile pickerului in meniul de prepaletizare, (da match orders cu map views si vezi ce nu e in regula dupa dai refresh) [gandestete bine unde il pui si cum faci sa nu iei mult timp]
+-la logimate alocare pe logimat pentru fiecare operator
+-vezi daca mai apar dubluri pe client + numar cutie cu picking no diferit si gandestete cum sa eviti situatia (verifica in map daca mai exista daca nu mai exista atunci le muti in istoric)
+-restrict same receivingNo and different pickingNo at allocation
+
+---note vechi
+-la sfarsit de zii toate cutiile packuite sa fie verificate de o procedura automata (momentan o rulez eu la ora 15) care apar fara temppalletID sa apara ca nou tip de problema
+-baga in tranzactii si datele la palet temporar si palet checker
+
+
+-----
+old data
+remove OldNames table
+from OperatorEvidences remove PartNumber and ReceivingOrdNo columns
+remove UsersLeft table
+remove from CheckerTempPallets and CheckerTempPalletHistory column IsEmpty
