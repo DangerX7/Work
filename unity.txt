@@ -1,0 +1,46 @@
+Team Left
+ CF
+  Player
+   Name
+    Animator
+	Stats
+
+-Puck states:
+-1 - puck is inactive
+ 0 - nobody has it,
+ 1 - team left has it,
+ 2 - team right has it,
+ 3 - you touched it last time but it's in air
+
+
+---Default Team Left---
+{No puck}
+Idle Stance (animation)
+Move (animation + input)
+Run (animation + input + double tap)
+ Attack
+ Slice [go up or down - double tap]
+ Brake
+ Jump 
+Jump (animation + input + regular hitbox)
+ AttackA
+ AttackB [puckState != 2]
+ AttackB [puckState == 2]
+ 
+ 
+---Base states---
+-default
+-dizzy [blocks all inputs]
+-angry [switches sprites category with team angry (make 6th player angry sprites)]
+-enemyHasPuck [switches attack B when standing]
+-isJumping [switches attack B]
+-hasPuck [switches most controls except Jumping]
+-isPassingPuck [hold A]
+-chargeShoot [hold B]
+
+ 
+---Types of attacks and properties---
+-makes you dizzy, second attack knocks you down
+-makes you flich
+-instant knockdown (samurai power pushback)
+-throws you in air (get touched by puck with energy)
